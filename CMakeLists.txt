@@ -4,9 +4,9 @@ project(03.guess_the_number)
 
 add_executable(guess_the_number
     guess.cpp
-    guess_header.h
-    func.cpp
-    high_scores.txt)
+    game_logic.cpp
+    random.cpp
+    records_storage.cpp)
 
 
 set_target_properties(guess_the_number PROPERTIES
